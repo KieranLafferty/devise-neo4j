@@ -28,9 +28,7 @@ module Neo4j
   # If you add another devise module (such as :lockable, :confirmable, or :token_authenticatable), but sure to 
   # uncomment the property definitions for those modules. Otherwise, the unused property definitions can be deleted. 
   #
-  # Setup accessible attributes for your model
-   attr_accessible :email, :password, :password_confirmation, :remember_me
-  
+  # Setup accessible attributes for your model  
    property :username, :type =>   String
    property :facebook_token, :type => String, :index => :exact
 
