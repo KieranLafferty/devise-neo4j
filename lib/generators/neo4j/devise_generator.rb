@@ -29,8 +29,8 @@ module Neo4j
   # uncomment the property definitions for those modules. Otherwise, the unused property definitions can be deleted. 
   #
   # Setup accessible attributes for your model  
-   property :username, :type =>   String
-   property :facebook_token, :type => String, :index => :exact
+  # property :username, :type =>   String
+  # property :facebook_token, :type => String, :index => :exact
 
    property :created_at, :type => Time
    property :updated_at, :type => Time
