@@ -20,10 +20,10 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
   
-  s.add_dependency("warden", "~> 1.2.1")
-  s.add_dependency("orm_adapter", "~> 0.1")
-  s.add_dependency("bcrypt-ruby", "~> 3.0")
-  s.add_dependency("railties", "~> 3.1")
-  s.add_dependency("neo4j", "~> 2.2.0")
-  s.add_dependency("devise", "~> 2.2.0")
+  s.add_dependency("warden", "~> 1.2.3")
+  s.add_dependency("orm_adapter", "~> 0.5.0")
+  s.add_dependency("bcrypt-ruby", "~> 3.1.2")
+  s.add_dependency("railties", "~> 4.0.1")
+  s.add_dependency("neo4j", "~> 2.3.0")
+  s.add_dependency("devise", "~> 3.2.2")
 end
