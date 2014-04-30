@@ -24,6 +24,6 @@ Gem::Specification.new do |s|
   s.add_dependency("orm_adapter", "~> 0.5.0")
   s.add_dependency("bcrypt-ruby", "~> 3.1.2")
   s.add_dependency("railties", "~> 4.0.1")
-  s.add_dependency("neo4j", "~> 2.3.0")
-  s.add_dependency("devise", "~> 3.2.2")
+  s.add_dependency("neo4j")
+  s.add_dependency("devise")
 end
